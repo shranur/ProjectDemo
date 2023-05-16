@@ -1,0 +1,14 @@
+package collections;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class ProgramsJava {
+	
+	public static void main(String[] args) {
+		Set<String> s = new HashSet<> ();
+		int size = s.size();
+		System.out.println("Size of an empty set::" + size);
+	}
+
+}

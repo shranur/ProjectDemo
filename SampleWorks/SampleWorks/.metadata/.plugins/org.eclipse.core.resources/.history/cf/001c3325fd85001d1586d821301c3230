@@ -1,0 +1,22 @@
+package collections;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class CollectionPractice {
+	
+	List<String> empName = new ArrayList<String>();
+	List<String> empId = new ArrayList<String>();
+	
+	
+	
+		public static void main(String[] args) {
+			
+//			List<String> empName = new ArrayList<String>();
+//			List<String> empId = new ArrayList<String>();
+//			
+			empName.add(null);
+			
+		}
+
+}

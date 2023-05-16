@@ -1,0 +1,33 @@
+package collections;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class ProgramsJava {
+	
+	public static void main(String[] args) {
+		Set<String> s = new HashSet<> ();
+		int size = s.size();
+		System.out.println("Size of an empty set::" + size);
+		s.add("A");
+		s.add("B");
+		s.add("C");
+		s.add("D");
+		s.add("A");
+		s.add("E");
+		s.add("B");
+		
+		System.out.println(s);
+		if(s.equals("A"))
+		{
+			System.out.println("Element is present in set!");
+		}
+		else
+		{
+			s.add("A");
+			System.out.println("New entry has been added successfully");
+			System.out.println("New set values" + s);
+		}
+	}
+
+}

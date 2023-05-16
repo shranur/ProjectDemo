@@ -1,0 +1,31 @@
+package collections;
+
+public class PrimeNumber {
+	
+	
+	public void primeNum (int x)
+	
+	{
+		int y=1;
+		
+		if (x/x == 1 && x%y == 1 )
+		{
+			System.out.println("Number is Prime" + x);
+		}
+		
+		else
+		{
+			System.out.println("Try with another number");
+		}
+		
+	}
+
+}
+
+class Executor{
+	
+	public static void main(String[] args) {
+		PrimeNumber pm = new PrimeNumber();
+		pm.primeNum(9);
+	}
+}

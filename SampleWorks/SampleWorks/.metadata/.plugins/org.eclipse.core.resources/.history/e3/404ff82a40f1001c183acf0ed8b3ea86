@@ -1,0 +1,27 @@
+package com.sample;
+
+public class MaxAndMin {
+	
+	
+	public static  int maxNum (int a,int b, int c) {
+		
+		int count = 0;
+		int max;
+		while (a>= 0 || b >=0 || c>=0)
+		{
+			a--;
+			b--;
+			c--;
+			count++;
+			
+		}
+		return max;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		maxNum(10, 15, 200)
+
+	}
+
+}

@@ -1,0 +1,54 @@
+package collections;
+
+public class Employee {
+	
+	private String empName;
+	private int empId;
+	private long empSal;
+	String compName = "CG";
+	
+	public Employee(String empName, int empId, long empSal) {
+		
+		this.empName = empName;
+		this.empId = empId;
+		this.empSal = empSal;
+		
+	}
+
+	public String getEmpName() {
+		return empName;
+	}
+
+	
+	public int getEmpId() {
+		return empId;
+	}
+
+
+	public long getEmpSal() {
+		return empSal;
+	}
+	
+	
+	
+
+}
+
+class EmployeeDetails{
+	
+	public static void main(String[] args) {
+		Employee e = new Employee("Ravi",201101, 100000);
+		Employee e1 = new Employee("Anurag",201102, 150000);
+		Employee e2 = new Employee("Akash",201103, 2000000);
+		Employee e3 = new Employee("Rahul",201104, 250000);
+		Employee e4 = new Employee("Saurabh",201105, 300000);
+		
+		
+	
+	System.out.println("Employee details::" +e.getEmpName() + " " +  +e.getEmpId()+ " " +e.getEmpSal());
+	System.out.println("Employee details::" +e1.getEmpName() + " " +  +e1.getEmpId()+ " " +e1.getEmpSal());
+	System.out.println("Employee details::" +e2.getEmpName() + " " +  +e2.getEmpId()+ " " +e2.getEmpSal());
+	System.out.println("Employee details::" +e3.getEmpName() + " " +  +e3.getEmpId()+ " " +e3.getEmpSal());
+	System.out.println("Employee details::" +e4.getEmpName() + " " +  +e4.getEmpId()+ " " +e4.getEmpSal());
+	}
+}

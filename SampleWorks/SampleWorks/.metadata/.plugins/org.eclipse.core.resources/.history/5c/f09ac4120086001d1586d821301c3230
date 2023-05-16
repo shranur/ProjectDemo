@@ -1,0 +1,39 @@
+package collections;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+public class CollectionPractice {
+	
+//	static List<String> empName = new ArrayList<String>();
+//	static List<String> empId = new ArrayList<String>();
+	
+	
+	
+	
+		public static void main(String[] args) {
+			
+			String[] list1 = {"A","B","C","D"};
+			String[] list2 = {"1","2","3","4"};
+			
+			List<String> empName = null;
+			List<String> empId = null;
+			Map<String,String> empDetails = new HashMap<String,String>();
+			
+			for(String e1:list1) {
+				empName.add(e1);
+				System.out.println(e1);
+			}
+			
+			for(String e2:list2) {
+				empId.add(e2);
+				System.out.println(e2);
+			}
+			
+			
+			
+		}
+
+}

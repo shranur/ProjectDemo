@@ -1,0 +1,45 @@
+package collections;
+
+public class Employee {
+	
+	private String empName;
+	private int empId;
+	private long empSal;
+	String compName;
+	
+	public Employee(String empName, int empId, long empSal, String compName) {
+		super();
+		this.empName = empName;
+		this.empId = empId;
+		this.empSal = empSal;
+		this.compName = compName;
+	}
+
+	public String getEmpName() {
+		return empName;
+	}
+
+	public void setEmpName(String empName) {
+		this.empName = empName;
+	}
+
+	public int getEmpId() {
+		return empId;
+	}
+
+	public void setEmpId(int empId) {
+		this.empId = empId;
+	}
+
+	public long getEmpSal() {
+		return empSal;
+	}
+
+	public void setEmpSal(long empSal) {
+		this.empSal = empSal;
+	}
+	
+	
+	
+
+}

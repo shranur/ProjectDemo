@@ -1,0 +1,25 @@
+package collections;
+
+public class Palindrome {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String x = "sas";
+		String y = " ";
+		
+		for(int i =0;i<x.length();i++)
+		{
+			char ch =x.charAt(i);
+			System.out.println(ch);
+		for(int j=x.length()-1; j>0;j--)
+		{
+			char cy =x.charAt(j);
+			System.out.println(cy);
+		}
+			
+		}
+
+	}
+
+}

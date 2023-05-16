@@ -1,0 +1,30 @@
+package collections;
+
+public class PrimeNumber {
+	
+	
+	public static void main(String[] args) {
+		
+		int x = 101;
+		
+		for (int i =2 ; i<=x; i++)
+		{
+			if (x%i ==0 )
+			{
+				System.out.println("number is not prime");
+				break;
+			}
+			else
+			{
+				System.out.println("Number is prime");
+				break;
+			}
+		}
+		
+		
+		
+	}
+
+}
+
+

@@ -1,0 +1,59 @@
+package com.sample;
+
+
+import java.util.LinkedHashSet;
+
+public class Assignment5 {
+	
+	LinkedHashSet<Character> hs= new LinkedHashSet<>();
+	LinkedHashSet<Character> hs1= new LinkedHashSet<>();
+	String str = "HelloWorld";
+	
+	public int findUniq(String str) {
+		
+		for(int i=0; i<str.length();i++) {
+			
+			if(!hs.add(str.charAt(i)))
+					{
+				hs1.add(str.charAt(i));
+			}
+			hs.removeAll(hs1);
+			if(hs.size()==0)
+			{
+				return -1;
+			}
+			else
+				return hs.size();
+			
+				
+			
+		}
+		return hs.size();
+		
+		
+		
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		/*
+		 * Write a method that takes a string and returns the number of unique
+		 * characters in the string. If the given string does not contain any unique
+		 * characters return -1.
+		 *  Example:Input: "HelloWorld"
+		 *  Output: 5
+		 *  Input: "coco"
+		 * Output: -1
+		 */
+		Assignment5 as  = new Assignment5();
+		as.findUniq("Helloworld");
+		
+		
+		
+			
+
+		
+	}
+
+}

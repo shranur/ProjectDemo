@@ -1,0 +1,36 @@
+package com.sample;
+
+import java.util.HashSet;
+
+public class Assignment5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		/*
+		 * Write a method that takes a string and returns the number of unique
+		 * characters in the string. If the given string does not contain any unique
+		 * characters return -1.
+		 *  Example:Input: "HelloWorld"
+		 *  Output: 5
+		 *  Input: "coco"
+		 * Output: -1
+		 */
+		HashSet<String> hs= new HashSet<>();
+		String s = "HelloWorld";
+		int count = 1;
+		
+		for (int i=0; i<=s.length();i++) {
+		if(hs.contains(s)) {
+			count++;
+		}
+		}
+		System.out.println(hs);
+		
+		
+			
+
+		
+	}
+
+}
